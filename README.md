@@ -12,7 +12,6 @@ A minimal Solana program (Anchor) that transfers SOL **from address A to address
 - ✅ Admin updates: `update_threshold(newThresholdLamports)` and `update_addresses(newFrom, newTo)`
 - ✅ TypeScript scripts to initialize config and to send funds through the program
 - ✅ Step-by-step instructions and inline code comments
-- ✅ **readme.txt** (plain text) for quick reference
 
 ---
 
