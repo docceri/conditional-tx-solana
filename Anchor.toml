@@ -1,0 +1,16 @@
+[features]
+seeds = true
+skip-lint = false
+
+[programs.devnet]
+conditional_transfer = "<REPLACE_WITH_YOUR_PROGRAM_ID>"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "node tests/conditional-transfer.js"
